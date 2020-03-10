@@ -1,0 +1,8 @@
+int functionABC() 
+{ 
+ int len = strlen(msg);
+ write(1,msg,len);
+ char buf[1024]={0};
+ read(0,buf,len);
+ return 0; 
+}

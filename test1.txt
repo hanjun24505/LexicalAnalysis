@@ -1,0 +1,49 @@
+ //else for if int while + - ( ) { } ; , : != >= && || 
+int get_m()
+{
+ int a,b,c,d,m,n;
+ a=10.333;
+ b=20;
+ c=30;
+ d=40;
+ if((a=10&&b=20)||(c=30&&d=40))
+   m=0;
+ else
+   m=1;
+ for(i=0;i<=5;i++)
+ {
+  m=m+2;
+ }
+ return m;
+}
+
+void get_n()
+{
+char ch='a';
+int n;
+while(ch!='z')
+     n++;
+return n;
+}
+
+{
+/*This a test program.*/
+int abc;
+int 123;
+int A$@;
+int i;
+int n;
+int b,c;
+int 2a;
+int a2;
+read n;
+n = 12345;
+for (i=1;i<=n; i= i+1)
+{ 
+abc=abc+i;
+}
+if(i!=n) n = n+i;
+if (!n) b = b+c;
+/*The loop ended
+write abc;
+}

@@ -1,0 +1,11 @@
+var testO = { name: "Lily"};
+ function funcA(a,b)
+ {
+    alert(this);
+    alert("Function A");
+ }
+function funcB(a, b) 
+{
+    funcA.call(testO, a, b);
+ }
+ funcB(1,2);
